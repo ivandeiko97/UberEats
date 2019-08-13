@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  }
+
+/* scrollUp styles */
+
+#scrollUp {
+  width: 80px;
+  height: 80px;
+  background: #59bd5a;
+  position: fixed;
+  bottom: 24px;
+  right: 16px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+#currentBuys {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  background-color: #cc0000;
+  border-radius: 50%;
+  bottom: 2px;
+  right: -6px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  display: none;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 0 6px #cc0000;
+}
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(33, 155, 59, 0.5);
+}
